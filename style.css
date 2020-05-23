@@ -1,7 +1,12 @@
-/*Por padrão a estrutura CSS tem a mesma estrutura do HTML*/
+header{
+	background: #BBBBBB;
+	padding: 20px 0;
+}
 
-body{
-	
+.caixa{
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
 }
 
 #banner{
