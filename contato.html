@@ -13,7 +13,7 @@
 	<body>
 		<header>
 			<div class="caixa">
-				<h1><img src="logo.png"></h1>
+				<h1><img src="logo.png" alt="Logo da Barbearia Alura"></h1>
 				<nav>
 					<ul>
 						<li><a href="index.html">Home</a></li>
@@ -38,33 +38,56 @@
 				<label for="mensagem">Mensagem</label>
 				<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea><!Área de mensagem>
 
-				<div>
-					<p>Como preferi o nosso contato?</p>
+				<fieldset>
+					<legend>Como preferi o nosso contato?</legend>
 					<label for="radio-email"><input type="radio" name="Contato" value="email" id="radio-email">Email</label>
 					
 					<label for="radio-telefone"><input type="radio" name="Contato" value="Telefone" id="radio-telefone">Telefone</label>
 					
 					<label for="radio-whatsapp"><input type="radio" name="Contato" value="WhatsApp" id="radio-whatsapp" checked>WhatsApp</label>
-					
-				</div>
+				</fieldset>
 
-				<div>
-						<p>Qual horário preferi ser atendido</p>
+				<fieldset>
+						<legend>Qual horário preferi ser atendido</legend>
 					<select>
 						<option>Manhã</option>
 						<option>Tarde</option>
 						<option>Noite</option>
 					</select>
-				</div>
+				</fieldset>
 				
 				<label class="checkbox"><input type="checkbox" checked>Gostaria de reeber nossas novidades por email</label>
 
-				<input type="submit" value="Enviar formulário"><!Enviar Formulário>
+				<input type="submit" value="Enviar formulário" class="enviar"><!Enviar Formulário>
 			</form><!Cariação de um formulário>
+
+			<table>
+				<thead>
+					<tr>
+						<th>Dia</th>
+						<th>Horário</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Segunda</td>
+						<td>8h ~ 20h</td>
+					</tr>
+					<tr>
+						<td>Quarta</td>
+						<td>8h ~ 20h</td>
+					</tr>
+					<tr>
+						<td>Sexta</td>
+						<td>8h ~ 20h</td>
+					</tr>
+				</tbody>
+			</table>
+
 		</main>
 
 		<footer>
-			<img src="logo-branco.png">
+			<img src="logo-branco.png" alt="Logo da barbearia alura">
 			<p class="Copyright">&copy; Copyright Barbearia Alura - 2019
 		</footer>
 	</body>
